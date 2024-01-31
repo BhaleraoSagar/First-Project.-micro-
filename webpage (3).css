@@ -1,0 +1,291 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: white;
+  height: 80px;
+  padding-top: 8px,0px,8px,;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+
+
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+ 
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 35px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 6px;
+
+}
+.logo{  float:left;
+margin-right: 64%;
+font-size: 18px;
+letter-spacing: 6px;
+margin-left: 2%;
+display: inline-block;
+
+}
+                                          /* nav is over here */
+
+.bg-1{
+background-image: url(https://www.w3schools.com/w3images/architect.jpg);
+
+background-size: cover;
+height: 110vh;
+
+
+}
+.bg-1 h4{
+display: inline-block;
+z-index: 1;
+font-size: 40px;
+letter-spacing: 4px;
+position: absolute;
+top: 600px;
+left: 780px;
+color: white;
+font-weight: 400;
+
+}
+.bg-1 #bg-T{  background-color: rgba(0, 0, 0, 0.774); 
+padding: 13px;
+font-weight: 580;
+font-size:36 ;
+
+}
+
+                                        /* First page is over here */
+
+.M-T{  font-size: 50px;
+padding-bottom: 20px;
+margin-left: 110px;
+
+}
+
+
+                                         /* page-6  Project */
+
+.flex1{
+width: 390px;
+height: 220px;
+background-size: cover;
+margin-right: 15px;
+display: inline-block; 
+justify-content: center;
+position: relative;
+left:6%; 
+margin-bottom: 15px;
+
+}
+
+                                         /* page-6  About */
+
+                                         
+.midtext{
+
+margin-left: 110px;
+word-spacing: 3px;
+}                                           
+
+.flex1 p{ 
+background-color: black;
+display: inline-block;
+color: white;
+padding: 8px; 
+}
+.page2{
+justify-content: space-between; 
+}
+
+
+                                          /* Contact Us  */
+
+.flex2{
+
+display: flex;
+flex-direction: row;
+gap: 75px;
+justify-content: center;
+
+}                                           
+
+.img button{
+
+padding-left: 130px;
+padding-right: 130px;
+padding-top: 7px;
+padding-bottom: 7px;
+font-size: 15px;
+letter-spacing: 2px;
+border-style: none;
+
+
+}
+.img{
+
+filter: saturate(30%);
+}
+.img button:hover{
+background-color: rgba(128, 128, 128, 0.431);   
+
+}
+input{
+padding-right: 1400px;
+padding-left: 10px;
+padding-bottom: 8px;
+padding-top: 8px;
+
+}
+#contact{padding-bottom: 20px;
+/* margin-left: 110px; */
+
+
+}
+.contact-p{
+font-size: 27px;
+margin-left: 110px;
+}
+form{
+margin-left: 110px;
+}
+.contact-btn{
+background-color: black;
+color: white;
+margin-left: 110px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 8px;
+padding-bottom: 8px;
+border-style: none;
+font-size: 15px;
+letter-spacing: 2px;
+}
+
+.contact-btn:hover{
+background-color: grey;
+color: black;
+}
+                                                /* End bg-2 */
+
+.bg-2{
+
+background-image: url(https://www.w3schools.com/w3images/map.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+margin-left: 6%;
+height: 904px;
+width: 1587px;
+padding-bottom: 0px;
+
+}                                                  
+                                                /* Footer */
+footer{
+background-color: black;
+height: 100px;
+color: white;
+
+text-align: center;
+
+}                                                   
+/* Media Quary*/
+
+                                            
+                                                /* Your existing styles */
+                                              
+                                                @media screen and (max-width: 800px) {
+                                                  /* Mobile styles */
+                                                  /* ... (your existing mobile styles) ... */
+                                                }
+                                              
+                                                @media screen and (min-width: 801px) and (max-width: 1024px) {
+                                                  /* Tablet styles */
+                                              
+                                                  nav {
+                                                    height: auto;
+                                                    padding-top: 8px;
+                                                    position: relative;
+                                                  }
+                                              
+                                                  ul {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    text-align: center;
+                                                  }
+                                              
+                                                  li {
+                                                    float: none;
+                                                    margin-bottom: 10px;
+                                                  }
+                                              
+                                                  .logo {
+                                                    margin-right: 0;
+                                                  }
+                                              
+                                                  .bg-1 h4 {
+                                                    top: 450px;
+                                                    left: 50%;
+                                                    transform: translateX(-50%);
+                                                  }
+                                              
+                                                  .M-T {
+                                                    margin-left: 0;
+                                                  }
+                                              
+                                                  .flex1 {
+                                                    width: 100%;
+                                                    margin-left: 0;
+                                                  }
+                                              
+                                                  .midtext {
+                                                    margin-left: 0;
+                                                  }
+                                              
+                                                  .flex2 {
+                                                    flex-direction: column;
+                                                  }
+                                              
+                                                  .img {
+                                                    padding-left: 0;
+                                                    padding-right: 0;
+                                                    text-align: center;
+                                                    margin-bottom: 20px;
+                                                  }
+                                              
+                                                  input {
+                                                    width: 100%;
+                                                    padding-right: 10px;
+                                                    padding-left: 10px;
+                                                    margin-bottom: 10px;
+                                                  }
+                                              
+                                                  form {
+                                                    margin-left: 0;
+                                                  }
+                                              
+                                                  .bg-2 {
+                                                    margin-left: 0;
+                                                    width: 100%;
+                                                  }
+                                                }
+                                                                    
+                                                
